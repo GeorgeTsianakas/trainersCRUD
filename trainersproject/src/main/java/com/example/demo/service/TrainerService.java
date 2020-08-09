@@ -2,7 +2,9 @@ package com.example.demo.service;
 
 import com.example.demo.entities.Trainer;
 import com.example.demo.repositories.TrainerRepository;
+
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

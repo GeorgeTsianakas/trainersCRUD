@@ -2,7 +2,9 @@ package com.example.demo.controller;
 
 import com.example.demo.entities.Trainer;
 import com.example.demo.service.TrainerService;
+
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

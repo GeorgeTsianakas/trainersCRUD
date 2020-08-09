@@ -16,11 +16,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Table(name = "trainer")
 @XmlRootElement
 @NamedQueries({
-    @NamedQuery(name = "Trainer.findAll", query = "SELECT t FROM Trainer t")
-    , @NamedQuery(name = "Trainer.findById", query = "SELECT t FROM Trainer t WHERE t.id = :id")
-    , @NamedQuery(name = "Trainer.findByFirstname", query = "SELECT t FROM Trainer t WHERE t.firstname = :firstname")
-    , @NamedQuery(name = "Trainer.findByLastname", query = "SELECT t FROM Trainer t WHERE t.lastname = :lastname")
-    , @NamedQuery(name = "Trainer.findBySubject", query = "SELECT t FROM Trainer t WHERE t.subject = :subject")})
+        @NamedQuery(name = "Trainer.findAll", query = "SELECT t FROM Trainer t")
+        , @NamedQuery(name = "Trainer.findById", query = "SELECT t FROM Trainer t WHERE t.id = :id")
+        , @NamedQuery(name = "Trainer.findByFirstname", query = "SELECT t FROM Trainer t WHERE t.firstname = :firstname")
+        , @NamedQuery(name = "Trainer.findByLastname", query = "SELECT t FROM Trainer t WHERE t.lastname = :lastname")
+        , @NamedQuery(name = "Trainer.findBySubject", query = "SELECT t FROM Trainer t WHERE t.subject = :subject")})
 public class Trainer implements Serializable {
 
     private static final long serialVersionUID = 1L;
